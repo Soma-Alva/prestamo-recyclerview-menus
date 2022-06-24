@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_cliente"
+        android:icon="@drawable/ic_person_add_24"
+        android:title="agregar"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_prestamo"
+        android:icon="@drawable/icmoney_24"
+        android:title="Guardar"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_verCliente"
+        android:icon="@drawable/ic_person_24"
+        android:title="Ver cliente"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_acercaDe"
+        android:icon="@drawable/ic_favorite_24"
+        android:title="Acerca De"
+        app:showAsAction="never"/>
+</menu>

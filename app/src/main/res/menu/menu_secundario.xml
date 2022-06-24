@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/check"
+        android:icon="@drawable/ic_check_24"
+        android:title="agregar"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/cancelar"
+        android:icon="@drawable/ic_baseline_close_24"
+        android:title="Guardar"
+        app:showAsAction="always"/>
+
+</menu>
